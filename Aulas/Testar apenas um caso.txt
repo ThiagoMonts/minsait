@@ -1,0 +1,1 @@
+Se eu quero validar apenas uma situação, posso usar o it.only
