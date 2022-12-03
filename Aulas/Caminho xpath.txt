@@ -1,0 +1,4 @@
+Caminho Xpath
+Clica com o botão direito na página, depois inspecionar, control + f e digita o elemento que você deseja
+//input[@id="password"]
+//a[@title="americanas"]
