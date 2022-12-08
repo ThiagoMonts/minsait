@@ -1,9 +1,6 @@
 describe('exercicio em sala de aula', () => {
-  beforeEach(()=>{
+  beforeEach(() => {
     cy.visit("https://demo.automationtesting.in/Register.html")
-  })
-  
-  it('Validação de registro', () => {
     cy.get("input[ng-model='FirstName']").type("Thiago")
     cy.get("input[ng-model='LastName']").type("Silva")
     cy.get("input[ng-model='EmailAdress']").type("google@google.com")
@@ -11,6 +8,9 @@ describe('exercicio em sala de aula', () => {
     cy.get("input[ng-model='radiovalue']").check("Male")
     //cy.get("input[ng-model='country']").type("Select Country")
     cy.get("#submitbtn").click()
-    
+  })
+
+  it('Validar envio do formulário', () => {
+    cy.get('#submitbtn').should('not.be.visible')
   })
 })
