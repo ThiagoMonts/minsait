@@ -5,6 +5,6 @@ describe('exercicio em sala de aula', () => {
   })
 
   it("Validar campo email", () => {
-    cy.get("#checkbox1").check()
+    cy.get('#FirstName').type('google@google.com')
   })
 })
