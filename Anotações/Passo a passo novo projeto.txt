@@ -1,0 +1,6 @@
+1. Crie uma pasta para seu projeto em um diretório de sua preferência no seu computador
+2. Abra essa pasta dentro do VsCode
+3. Abra o terminal da IDE e crie seu projeto node inserindo o comando: npm init --yes
+4. Após o package.json estar criado, vamos instalar o cypress: npm install cypress --save-dev
+OBS:Para instalar uma versão específica : npm install cypress@10.10.0 --save-dev
+5. Dependência instalada, agora vamos abrir o cypress digitando "npx cypress open" no terminal
