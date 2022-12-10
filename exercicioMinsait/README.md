@@ -27,11 +27,12 @@ Esse projeto foi desenvolvido com a seguinte tecnologia:
 
 URL para o teste: https://demo.automationtesting.in/Register.html
 
-a. Selecione ao menos 3 elementos usando seleção de CSS;
-b. Crie um teste valido;
-c. Adicione beforeEach() em seus testes; e
-d. Crie um teste para validar envio do formulário com dados inválidos.
-
+<ul>
+<li>a. Selecione ao menos 3 elementos usando seleção de CSS;
+<li>b. Crie um teste valido;
+<li>c. Adicione beforeEach() em seus testes; e
+<li>d. Crie um teste para validar envio do formulário com dados inválidos.
+</ul>
 ## 🔖 Instalação
 
 Cypress requer [Node.js](https://nodejs.org/) 
