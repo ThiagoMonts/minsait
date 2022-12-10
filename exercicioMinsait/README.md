@@ -17,11 +17,13 @@ Resposta ao exercício proposto em sala de aula da Formação em Testes Manuais 
   <img alt="tela de teste" src=".github/project.png" width="100%">
 </p>
 
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com a seguinte tecnologia:
 
 - JavaScript
+<br>
 
 ## 💻 Exercício
 
@@ -33,6 +35,8 @@ URL para o teste: https://demo.automationtesting.in/Register.html
 <li>c. Adicione beforeEach() em seus testes; e
 <li>d. Crie um teste para validar envio do formulário com dados inválidos.
 </ul>
+<br>
+
 ## 🔖 Instalação
 
 Cypress requer [Node.js](https://nodejs.org/) 
@@ -48,6 +52,7 @@ Depois abra o cypress:
 ```sh
 npx cypress open
 ```
+<br>
 
 ## :memo: Licença
 
