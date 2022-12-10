@@ -1,0 +1,5 @@
+Melhor organização com o Page Object
+
+1º Crio a pasta "Pages" dentro de "support" e dentro da pasta "Pages", crio uma subpasta "Login"
+2º Dentro da pasta "Login", crio o arquivo "elements.js", nele construirei o meu objeto.
+3º Mais uma vez dentro d pasta "Login", crio o arquivo "index.js", nele construirei os métodos.
