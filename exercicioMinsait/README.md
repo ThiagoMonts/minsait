@@ -40,13 +40,13 @@ Cypress requer [Node.js](https://nodejs.org/)
 Após instalação do Node, instale as dependências:
 
 ```sh
-npm install
+npm install cypress --save-dev
 ```
 
 Depois abra o cypress:
 
 ```sh
-npm run cy:open
+npx cypress open
 ```
 
 ## :memo: Licença
